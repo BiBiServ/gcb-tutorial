@@ -1,0 +1,34 @@
+#use openstack
+mode=openstack
+
+#Openstack credentials
+openstack-username=# OPENSTACK USERNAME
+openstack-tenantname=GCB_Cloud_Computing
+openstack-password=# OPENSTACK PASSWORD
+openstack-endpoint=https://openstack.cebitec.uni-bielefeld.de:5000/v2.0
+
+#Access
+identity-file=#PATH TO PRIVATE SSH KEY
+keypair=# NAME OF KEYPAIR
+region=RegionOne
+availability-zone=highperformance
+
+#Network
+subnet=gcb_extsubnet
+security-group=gcb
+
+#BiBiGrid-Master
+master-instance-type=c4r32d30
+master-image=898e5ec0-1c0f-443a-b79a-d931d2921316
+
+#BiBiGrid-Slave(s)
+slave-instance-type=c4r32d30
+slave-instance-count=2
+slave-image=65d7635f-6822-4070-bc6e-ca0d41c6ebf8
+
+#Cluster Props
+master-mounts=
+nfs-shares=
+use-master-as-compute=yes
+nfs=yes
+oge=yes
