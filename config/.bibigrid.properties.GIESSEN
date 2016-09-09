@@ -1,0 +1,43 @@
+#use openstack
+mode=openstack
+#Openstack credentials
+openstack-username=# OPENSTACK USERNAME
+openstack-tenantname=gcb_workshop
+openstack-domain=gcb
+openstack-password=# OPENSTACK PASSWORD
+openstack-endpoint=https://www.computational.bio.uni-giessen.de:35357/v3
+
+#Access
+identity-file=# PATH TO PRIVATE SSH KEY
+keypair=# NAME OF KEYPAIR
+region=BCF
+availability-zone=nova
+#availability-zone=default
+
+# Network :: set one of 
+# 1. router (network and subnetwork will created exclusive)
+# 2. network (existing network/router will be used, subnetwork will be created exclusive)
+# 3. subnet (existing subnet/network/router will be used and meybe shared with existing instances
+#router=external_router
+#network=
+subnet=gcb_subnet
+security-group=gcb
+
+# BiBiGrid-Master
+master-instance-type=gcb
+master-image=347d9022-e862-487e-9c0a-8b66570ccd23
+#early-execute-script=
+
+# BiBiGrid-Slave
+slave-instance-type=gcb
+slave-instance-count=3
+slave-image=3ad4c48a-0caa-4df9-8392-9df401718648
+#early-slave-execute-script=
+
+
+# Cluster Properties
+master-mounts=
+nfs-shares=
+use-master-as-compute=yes
+nfs=yes
+oge=yes
