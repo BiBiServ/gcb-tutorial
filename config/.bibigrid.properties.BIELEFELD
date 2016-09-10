@@ -18,13 +18,13 @@ subnet=gcb_extsubnet
 security-group=gcb
 
 #BiBiGrid-Master
-master-instance-type=c4r32d30
-master-image=898e5ec0-1c0f-443a-b79a-d931d2921316
+master-instance-type=c4r16d30
+master-image=de239809-1ddb-4c8a-b23c-bf9bf4e7ed59
 
 #BiBiGrid-Slave(s)
-slave-instance-type=c4r32d30
-slave-instance-count=2
-slave-image=65d7635f-6822-4070-bc6e-ca0d41c6ebf8
+slave-instance-type=c4r16d30
+slave-instance-count=3
+slave-image=8010f6a0-b781-4488-bb1f-85b4e791effe
 
 #Cluster Props
 master-mounts=
