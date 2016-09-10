@@ -25,13 +25,13 @@ security-group=gcb
 
 # BiBiGrid-Master
 master-instance-type=gcb
-master-image=347d9022-e862-487e-9c0a-8b66570ccd23
+master-image=b98fb5ae-f1bf-4ad2-aebb-78ef1f6ea2c4
 #early-execute-script=
 
 # BiBiGrid-Slave
 slave-instance-type=gcb
 slave-instance-count=3
-slave-image=3ad4c48a-0caa-4df9-8392-9df401718648
+slave-image=5a23b55c-4c6f-469c-9c45-644eb3715337
 #early-slave-execute-script=
 
 
