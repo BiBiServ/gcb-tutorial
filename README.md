@@ -40,7 +40,7 @@ Edit the following lines in the properties file:
 Now you can start an OpenStack Cluster. Specifying your user name
 during startup will make it easier to identify your cluster later:
 
-    bin/bibigrid.sh -c -o bibigrid.properties -u USERNAME
+    bin/bibigrid -c -o bibigrid.properties -u USERNAME
 
 Once the OpenStack instance is running, make sure you **take note of its IP
 address**. We will need it later!
