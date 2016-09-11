@@ -2,7 +2,7 @@
 
 ## BiBiGrid
 To start a BiBiGrid cluster in an OpenStack cloud computing environment
-clone the github repository to your local machine:
+clone the github repository to your local machine.
 
   git clone https://github.com/BiBiServ/gcb-tutorial.git
   cd gcb-tutorial
