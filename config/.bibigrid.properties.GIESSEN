@@ -1,15 +1,15 @@
 #use openstack
 mode=openstack
 #Openstack credentials
-openstack-username=# OPENSTACK USERNAME
+openstack-username=<OPENSTACK USERNAME>
+openstack-password=<OPENSTACK PASSWORD>
 openstack-tenantname=gcb_workshop
 openstack-domain=gcb
-openstack-password=# OPENSTACK PASSWORD
 openstack-endpoint=https://www.computational.bio.uni-giessen.de:35357/v3
 
 #Access
-identity-file=# PATH TO PRIVATE SSH KEY
-keypair=# NAME OF KEYPAIR
+identity-file=<PATH TO PRIVATE SSH KEY>
+keypair=<NAME OF KEYPAIR>
 region=BCF
 availability-zone=nova
 #availability-zone=default
@@ -36,8 +36,8 @@ slave-image=5a23b55c-4c6f-469c-9c45-644eb3715337
 
 
 # Cluster Properties
-master-mounts=snap_gcb=/gcb
-nfs-shares=/gcb
+master-mounts=snap_gcb_data=/data
+nfs-shares=/data
 use-master-as-compute=yes
 nfs=yes
 oge=yes
