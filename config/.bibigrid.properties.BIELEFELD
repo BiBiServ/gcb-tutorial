@@ -2,14 +2,14 @@
 mode=openstack
 
 #Openstack credentials
-openstack-username=# OPENSTACK USERNAME
+openstack-username=<OPENSTACK USERNAME>
+openstack-password=<OPENSTACK PASSWORD>
 openstack-tenantname=GCB_Cloud_Computing
-openstack-password=# OPENSTACK PASSWORD
 openstack-endpoint=https://openstack.cebitec.uni-bielefeld.de:5000/v2.0
 
 #Access
-identity-file=#PATH TO PRIVATE SSH KEY
-keypair=# NAME OF KEYPAIR
+identity-file=<PATH TO PRIVATE SSH KEY>
+keypair=<NAME OF KEYPAIR>
 region=RegionOne
 availability-zone=highperformance
 
