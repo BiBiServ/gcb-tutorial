@@ -36,8 +36,8 @@ slave-image=5a23b55c-4c6f-469c-9c45-644eb3715337
 
 
 # Cluster Properties
-master-mounts=snap_gcb_data=/data
-nfs-shares=/data
+master-mounts=snap_gcb_data=/volume
+nfs-shares=/volume
 use-master-as-compute=yes
 nfs=yes
 oge=yes
